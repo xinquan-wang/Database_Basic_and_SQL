@@ -1,4 +1,4 @@
-# Database_Basic_and_SQL
+# Database_Basics_and_SQL
 
 There are two parts in this assignment:
 1. Understand the databases

@@ -1,0 +1,154 @@
+First table =  <class 'CSVDataTable.CSVDataTable'>: name = People
+connect_info = {'directory': '/Users/wangxinquan/Desktop/2sem/W4111Database/HW1_xw2566/data', 'file_name': 'People.csv'}
+Key columns = ['playerID']
+Column names =['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+No. of rows = 19370
+{'playerID': 'aardsda01', 'birthYear': '1981', 'birthMonth': '12', 'birthDay': '27', 'birthCountry': 'USA', 'birthState': 'CO', 'birthCity': 'Denver', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'David', 'nameLast': 'Aardsma', 'nameGiven': 'David Allan', 'weight': '215', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '2004-04-06', 'finalGame': '2015-08-23', 'retroID': 'aardd001', 'bbrefID': 'aardsda01'}
+{'playerID': 'aaronha01', 'birthYear': '1934', 'birthMonth': '2', 'birthDay': '5', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Mobile', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Hank', 'nameLast': 'Aaron', 'nameGiven': 'Henry Louis', 'weight': '180', 'height': '72', 'bats': 'R', 'throws': 'R', 'debut': '1954-04-13', 'finalGame': '1976-10-03', 'retroID': 'aaroh101', 'bbrefID': 'aaronha01'}
+{'playerID': 'aaronto01', 'birthYear': '1939', 'birthMonth': '8', 'birthDay': '5', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Mobile', 'deathYear': '1984', 'deathMonth': '8', 'deathDay': '16', 'deathCountry': 'USA', 'deathState': 'GA', 'deathCity': 'Atlanta', 'nameFirst': 'Tommie', 'nameLast': 'Aaron', 'nameGiven': 'Tommie Lee', 'weight': '190', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '1962-04-10', 'finalGame': '1971-09-26', 'retroID': 'aarot101', 'bbrefID': 'aaronto01'}
+{'playerID': 'aasedo01', 'birthYear': '1954', 'birthMonth': '9', 'birthDay': '8', 'birthCountry': 'USA', 'birthState': 'CA', 'birthCity': 'Orange', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Don', 'nameLast': 'Aase', 'nameGiven': 'Donald William', 'weight': '190', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '1977-07-26', 'finalGame': '1990-10-03', 'retroID': 'aased001', 'bbrefID': 'aasedo01'}
+{'playerID': 'abadan01', 'birthYear': '1972', 'birthMonth': '8', 'birthDay': '25', 'birthCountry': 'USA', 'birthState': 'FL', 'birthCity': 'Palm Beach', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Andy', 'nameLast': 'Abad', 'nameGiven': 'Fausto Andres', 'weight': '184', 'height': '73', 'bats': 'L', 'throws': 'L', 'debut': '2001-09-10', 'finalGame': '2006-04-13', 'retroID': 'abada001', 'bbrefID': 'abadan01'}
+First table =  <class 'CSVDataTable.CSVDataTable'>: name = People
+connect_info = {'directory': '/Users/wangxinquan/Desktop/2sem/W4111Database/HW1_xw2566/data', 'file_name': 'People.csv'}
+Key columns = ['playerID']
+Column names =['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+No. of rows = 19370
+{'playerID': 'aardsda01', 'birthYear': '1981', 'birthMonth': '12', 'birthDay': '27', 'birthCountry': 'USA', 'birthState': 'CO', 'birthCity': 'Denver', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'David', 'nameLast': 'Aardsma', 'nameGiven': 'David Allan', 'weight': '215', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '2004-04-06', 'finalGame': '2015-08-23', 'retroID': 'aardd001', 'bbrefID': 'aardsda01'}
+{'playerID': 'aaronha01', 'birthYear': '1934', 'birthMonth': '2', 'birthDay': '5', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Mobile', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Hank', 'nameLast': 'Aaron', 'nameGiven': 'Henry Louis', 'weight': '180', 'height': '72', 'bats': 'R', 'throws': 'R', 'debut': '1954-04-13', 'finalGame': '1976-10-03', 'retroID': 'aaroh101', 'bbrefID': 'aaronha01'}
+{'playerID': 'aaronto01', 'birthYear': '1939', 'birthMonth': '8', 'birthDay': '5', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Mobile', 'deathYear': '1984', 'deathMonth': '8', 'deathDay': '16', 'deathCountry': 'USA', 'deathState': 'GA', 'deathCity': 'Atlanta', 'nameFirst': 'Tommie', 'nameLast': 'Aaron', 'nameGiven': 'Tommie Lee', 'weight': '190', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '1962-04-10', 'finalGame': '1971-09-26', 'retroID': 'aarot101', 'bbrefID': 'aaronto01'}
+{'playerID': 'aasedo01', 'birthYear': '1954', 'birthMonth': '9', 'birthDay': '8', 'birthCountry': 'USA', 'birthState': 'CA', 'birthCity': 'Orange', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Don', 'nameLast': 'Aase', 'nameGiven': 'Donald William', 'weight': '190', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '1977-07-26', 'finalGame': '1990-10-03', 'retroID': 'aased001', 'bbrefID': 'aasedo01'}
+{'playerID': 'abadan01', 'birthYear': '1972', 'birthMonth': '8', 'birthDay': '25', 'birthCountry': 'USA', 'birthState': 'FL', 'birthCity': 'Palm Beach', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Andy', 'nameLast': 'Abad', 'nameGiven': 'Fausto Andres', 'weight': '184', 'height': '73', 'bats': 'L', 'throws': 'L', 'debut': '2001-09-10', 'finalGame': '2006-04-13', 'retroID': 'abada001', 'bbrefID': 'abadan01'}
+Match =  False
+First table =  <class 'CSVDataTable.CSVDataTable'>: name = People
+connect_info = {'directory': '/Users/wangxinquan/Desktop/2sem/W4111Database/HW1_xw2566/data', 'file_name': 'People.csv'}
+Key columns = ['playerID']
+Column names =['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+No. of rows = 19370
+{'playerID': 'aardsda01', 'birthYear': '1981', 'birthMonth': '12', 'birthDay': '27', 'birthCountry': 'USA', 'birthState': 'CO', 'birthCity': 'Denver', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'David', 'nameLast': 'Aardsma', 'nameGiven': 'David Allan', 'weight': '215', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '2004-04-06', 'finalGame': '2015-08-23', 'retroID': 'aardd001', 'bbrefID': 'aardsda01'}
+{'playerID': 'aaronha01', 'birthYear': '1934', 'birthMonth': '2', 'birthDay': '5', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Mobile', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Hank', 'nameLast': 'Aaron', 'nameGiven': 'Henry Louis', 'weight': '180', 'height': '72', 'bats': 'R', 'throws': 'R', 'debut': '1954-04-13', 'finalGame': '1976-10-03', 'retroID': 'aaroh101', 'bbrefID': 'aaronha01'}
+{'playerID': 'aaronto01', 'birthYear': '1939', 'birthMonth': '8', 'birthDay': '5', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Mobile', 'deathYear': '1984', 'deathMonth': '8', 'deathDay': '16', 'deathCountry': 'USA', 'deathState': 'GA', 'deathCity': 'Atlanta', 'nameFirst': 'Tommie', 'nameLast': 'Aaron', 'nameGiven': 'Tommie Lee', 'weight': '190', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '1962-04-10', 'finalGame': '1971-09-26', 'retroID': 'aarot101', 'bbrefID': 'aaronto01'}
+{'playerID': 'aasedo01', 'birthYear': '1954', 'birthMonth': '9', 'birthDay': '8', 'birthCountry': 'USA', 'birthState': 'CA', 'birthCity': 'Orange', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Don', 'nameLast': 'Aase', 'nameGiven': 'Donald William', 'weight': '190', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '1977-07-26', 'finalGame': '1990-10-03', 'retroID': 'aased001', 'bbrefID': 'aasedo01'}
+{'playerID': 'abadan01', 'birthYear': '1972', 'birthMonth': '8', 'birthDay': '25', 'birthCountry': 'USA', 'birthState': 'FL', 'birthCity': 'Palm Beach', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Andy', 'nameLast': 'Abad', 'nameGiven': 'Fausto Andres', 'weight': '184', 'height': '73', 'bats': 'L', 'throws': 'L', 'debut': '2001-09-10', 'finalGame': '2006-04-13', 'retroID': 'abada001', 'bbrefID': 'abadan01'}
+
+
+ After find by template, Result =  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:People
+connect_info = None
+Key columns = None
+No. of rows = 61
+{'playerID': 'willial02', 'nameLast': 'Williams', 'birthCity': 'Valhermosa Springs', 'throws': 'R'}
+{'playerID': 'willial03', 'nameLast': 'Williams', 'birthCity': 'Pearl Lagoon', 'throws': 'R'}
+{'playerID': 'williar01', 'nameLast': 'Williams', 'birthCity': 'Somerville', 'throws': 'R'}
+{'playerID': 'willibe01', 'nameLast': 'Williams', 'birthCity': 'Alameda', 'throws': 'R'}
+{'playerID': 'willibe02', 'nameLast': 'Williams', 'birthCity': 'San Juan', 'throws': 'R'}
+
+
+ After find by template find by template, Result =  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:FBT:People
+connect_info = None
+Key columns = None
+No. of rows = 2
+{'playerID': 'willite01', 'nameLast': 'Williams', 'birthCity': 'San Diego', 'throws': 'R'}
+{'playerID': 'willitr01', 'nameLast': 'Williams', 'birthCity': 'San Diego', 'throws': 'R'}
+First table =  <class 'CSVDataTable.CSVDataTable'>: name = People
+connect_info = {'directory': '/Users/wangxinquan/Desktop/2sem/W4111Database/HW1_xw2566/data', 'file_name': 'People.csv'}
+Key columns = ['playerID']
+Column names =['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+No. of rows = 19370
+{'playerID': 'aardsda01', 'birthYear': '1981', 'birthMonth': '12', 'birthDay': '27', 'birthCountry': 'USA', 'birthState': 'CO', 'birthCity': 'Denver', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'David', 'nameLast': 'Aardsma', 'nameGiven': 'David Allan', 'weight': '215', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '2004-04-06', 'finalGame': '2015-08-23', 'retroID': 'aardd001', 'bbrefID': 'aardsda01'}
+{'playerID': 'aaronha01', 'birthYear': '1934', 'birthMonth': '2', 'birthDay': '5', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Mobile', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Hank', 'nameLast': 'Aaron', 'nameGiven': 'Henry Louis', 'weight': '180', 'height': '72', 'bats': 'R', 'throws': 'R', 'debut': '1954-04-13', 'finalGame': '1976-10-03', 'retroID': 'aaroh101', 'bbrefID': 'aaronha01'}
+{'playerID': 'aaronto01', 'birthYear': '1939', 'birthMonth': '8', 'birthDay': '5', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Mobile', 'deathYear': '1984', 'deathMonth': '8', 'deathDay': '16', 'deathCountry': 'USA', 'deathState': 'GA', 'deathCity': 'Atlanta', 'nameFirst': 'Tommie', 'nameLast': 'Aaron', 'nameGiven': 'Tommie Lee', 'weight': '190', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '1962-04-10', 'finalGame': '1971-09-26', 'retroID': 'aarot101', 'bbrefID': 'aaronto01'}
+{'playerID': 'aasedo01', 'birthYear': '1954', 'birthMonth': '9', 'birthDay': '8', 'birthCountry': 'USA', 'birthState': 'CA', 'birthCity': 'Orange', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Don', 'nameLast': 'Aase', 'nameGiven': 'Donald William', 'weight': '190', 'height': '75', 'bats': 'R', 'throws': 'R', 'debut': '1977-07-26', 'finalGame': '1990-10-03', 'retroID': 'aased001', 'bbrefID': 'aasedo01'}
+{'playerID': 'abadan01', 'birthYear': '1972', 'birthMonth': '8', 'birthDay': '25', 'birthCountry': 'USA', 'birthState': 'FL', 'birthCity': 'Palm Beach', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Andy', 'nameLast': 'Abad', 'nameGiven': 'Fausto Andres', 'weight': '184', 'height': '73', 'bats': 'L', 'throws': 'L', 'debut': '2001-09-10', 'finalGame': '2006-04-13', 'retroID': 'abada001', 'bbrefID': 'abadan01'}
+
+
+Result =  {'playerID': 'willite01', 'nameLast': 'Williams'}
+First table =  <class 'CSVDataTable.CSVDataTable'>: name = offices
+connect_info = {'directory': '/Users/wangxinquan/Desktop/2sem/W4111Database/HW1_xw2566/data', 'file_name': 'offices.csv'}
+Key columns = ['officeCode']
+Column names =['officeCode', 'city', 'phone', 'addressLine1', 'addressLine2', 'state', 'country', 'postalCode', 'territory']
+No. of rows = 10
+{'officeCode': '1', 'city': 'San Francisco', 'phone': '+1 650 219 4782', 'addressLine1': '100 Market Street', 'addressLine2': 'Suite 300', 'state': 'CA', 'country': 'USA', 'postalCode': '94080', 'territory': 'NA'}
+{'officeCode': '11', 'city': 'Cambridge', 'phone': '+1 617 555 1212', 'addressLine1': 'Kendall Square', 'addressLine2': '', 'state': 'MA', 'country': 'USA', 'postalCode': '02102', 'territory': 'NA'}
+{'officeCode': '2', 'city': 'Boston', 'phone': '+1 215 837 0825', 'addressLine1': '1550 Court Place', 'addressLine2': 'Suite 102', 'state': 'MA', 'country': 'USA', 'postalCode': '02107', 'territory': 'NA'}
+{'officeCode': '3', 'city': 'NYC', 'phone': '+1 212 555 3000', 'addressLine1': '523 East 53rd Street', 'addressLine2': 'apt. 5A', 'state': 'NY', 'country': 'USA', 'postalCode': '10022', 'territory': 'NA'}
+{'officeCode': '4', 'city': 'Paris', 'phone': '+33 14 723 4404', 'addressLine1': "43 Rue Jouffroy D'abbans", 'addressLine2': '', 'state': '', 'country': 'France', 'postalCode': '75017', 'territory': 'EMEA'}
+
+
+before insert = <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'officeCode': '5', 'city': 'Tokyo', 'phone': '+81 33 224 5000', 'addressLine1': '4-1 Kioicho', 'addressLine2': '', 'state': 'Chiyoda-Ku', 'country': 'Japan', 'postalCode': '102-8578', 'territory': 'Japan'}
+
+
+after insert = <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 2
+{'officeCode': '5', 'city': 'Tokyo', 'phone': '+81 33 224 5000', 'addressLine1': '4-1 Kioicho', 'addressLine2': '', 'state': 'Chiyoda-Ku', 'country': 'Japan', 'postalCode': '102-8578', 'territory': 'Japan'}
+{'officeCode': '300', 'city': 'Tokyo'}
+First table =  <class 'CSVDataTable.CSVDataTable'>: name = offices
+connect_info = {'directory': '/Users/wangxinquan/Desktop/2sem/W4111Database/HW1_xw2566/data', 'file_name': 'offices.csv'}
+Key columns = ['officeCode']
+Column names =['officeCode', 'city', 'phone', 'addressLine1', 'addressLine2', 'state', 'country', 'postalCode', 'territory']
+No. of rows = 10
+{'officeCode': '1', 'city': 'San Francisco', 'phone': '+1 650 219 4782', 'addressLine1': '100 Market Street', 'addressLine2': 'Suite 300', 'state': 'CA', 'country': 'USA', 'postalCode': '94080', 'territory': 'NA'}
+{'officeCode': '11', 'city': 'Cambridge', 'phone': '+1 617 555 1212', 'addressLine1': 'Kendall Square', 'addressLine2': '', 'state': 'MA', 'country': 'USA', 'postalCode': '02102', 'territory': 'NA'}
+{'officeCode': '2', 'city': 'Boston', 'phone': '+1 215 837 0825', 'addressLine1': '1550 Court Place', 'addressLine2': 'Suite 102', 'state': 'MA', 'country': 'USA', 'postalCode': '02107', 'territory': 'NA'}
+{'officeCode': '3', 'city': 'NYC', 'phone': '+1 212 555 3000', 'addressLine1': '523 East 53rd Street', 'addressLine2': 'apt. 5A', 'state': 'NY', 'country': 'USA', 'postalCode': '10022', 'territory': 'NA'}
+{'officeCode': '4', 'city': 'Paris', 'phone': '+33 14 723 4404', 'addressLine1': "43 Rue Jouffroy D'abbans", 'addressLine2': '', 'state': '', 'country': 'France', 'postalCode': '75017', 'territory': 'EMEA'}
+
+
+before delete = <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'officeCode': '4', 'city': 'Paris', 'phone': '+33 14 723 4404', 'addressLine1': "43 Rue Jouffroy D'abbans", 'addressLine2': '', 'state': '', 'country': 'France', 'postalCode': '75017', 'territory': 'EMEA'}
+
+
+I deleted ...  1 rows
+
+
+after delete = <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 0
+First table =  <class 'CSVDataTable.CSVDataTable'>: name = offices
+connect_info = {'directory': '/Users/wangxinquan/Desktop/2sem/W4111Database/HW1_xw2566/data', 'file_name': 'offices.csv'}
+Key columns = ['officeCode']
+Column names =['officeCode', 'city', 'phone', 'addressLine1', 'addressLine2', 'state', 'country', 'postalCode', 'territory']
+No. of rows = 10
+{'officeCode': '1', 'city': 'San Francisco', 'phone': '+1 650 219 4782', 'addressLine1': '100 Market Street', 'addressLine2': 'Suite 300', 'state': 'CA', 'country': 'USA', 'postalCode': '94080', 'territory': 'NA'}
+{'officeCode': '11', 'city': 'Cambridge', 'phone': '+1 617 555 1212', 'addressLine1': 'Kendall Square', 'addressLine2': '', 'state': 'MA', 'country': 'USA', 'postalCode': '02102', 'territory': 'NA'}
+{'officeCode': '2', 'city': 'Boston', 'phone': '+1 215 837 0825', 'addressLine1': '1550 Court Place', 'addressLine2': 'Suite 102', 'state': 'MA', 'country': 'USA', 'postalCode': '02107', 'territory': 'NA'}
+{'officeCode': '3', 'city': 'NYC', 'phone': '+1 212 555 3000', 'addressLine1': '523 East 53rd Street', 'addressLine2': 'apt. 5A', 'state': 'NY', 'country': 'USA', 'postalCode': '10022', 'territory': 'NA'}
+{'officeCode': '4', 'city': 'Paris', 'phone': '+33 14 723 4404', 'addressLine1': "43 Rue Jouffroy D'abbans", 'addressLine2': '', 'state': '', 'country': 'France', 'postalCode': '75017', 'territory': 'EMEA'}
+
+
+before delete = <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'officeCode': '4', 'city': 'Paris', 'phone': '+33 14 723 4404', 'addressLine1': "43 Rue Jouffroy D'abbans", 'addressLine2': '', 'state': '', 'country': 'France', 'postalCode': '75017', 'territory': 'EMEA'}
+
+
+I deleted ...  1 rows
+
+
+after delete = <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 0
+
+
+After update ...  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'officeCode': 13, 'city': 'Paris', 'phone': '+33 14 723 4404', 'addressLine1': "43 Rue Jouffroy D'abbans", 'addressLine2': '', 'state': 'Mars', 'country': 'Jupiter', 'postalCode': '75017', 'territory': 'EMEA'}
+
+
+After update ...  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'officeCode': 13, 'city': 'Paris', 'phone': '+33 14 723 4404', 'addressLine1': "43 Rue Jouffroy D'abbans", 'addressLine2': '', 'state': 'Mars', 'country': 'Jupiter', 'postalCode': '75017', 'territory': 'EMEA'}

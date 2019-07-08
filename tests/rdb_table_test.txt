@@ -1,0 +1,128 @@
+ *** DEBUG: Query =  SELECT count(*) as count from People
+RDBDataTable: table_name = People
+Key fields: ['playerID']
+No. of rows = 19370
+First five rows:
+    playerID birthYear birthMonth birthDay birthCountry birthState   birthCity deathYear deathMonth deathDay deathCountry deathState deathCity nameFirst nameLast       nameGiven weight height bats throws       debut   finalGame   retroID    bbrefID
+0  aardsda01      1981         12       27          USA         CO      Denver                                                                     David  Aardsma     David Allan    215     75    R      R  2004-04-06  2015-08-23  aardd001  aardsda01
+1  aaronha01      1934          2        5          USA         AL      Mobile                                                                      Hank    Aaron     Henry Louis    180     72    R      R  1954-04-13  1976-10-03  aaroh101  aaronha01
+2  aaronto01      1939          8        5          USA         AL      Mobile      1984          8       16          USA         GA   Atlanta    Tommie    Aaron      Tommie Lee    190     75    R      R  1962-04-10  1971-09-26  aarot101  aaronto01
+3   aasedo01      1954          9        8          USA         CA      Orange                                                                       Don     Aase  Donald William    190     75    R      R  1977-07-26  1990-10-03  aased001   aasedo01
+4   abadan01      1972          8       25          USA         FL  Palm Beach                                                                      Andy     Abad   Fausto Andres    184     73    L      L  2001-09-10  2006-04-13  abada001   abadan01
+WC =  ('WHERE nameLast=%s  AND nameFirst=%s ', ['Williams', 'Ted'])
+Query =  select * from People WHERE nameLast=%s  AND nameFirst=%s 
+ *** DEBUG: Query =  select * from People WHERE nameLast='Williams'  AND nameFirst='Ted' 
+Query result =  [
+  {
+    "playerID": "willite01",
+    "birthYear": "1918",
+    "birthMonth": "8",
+    "birthDay": "30",
+    "birthCountry": "USA",
+    "birthState": "CA",
+    "birthCity": "San Diego",
+    "deathYear": "2002",
+    "deathMonth": "7",
+    "deathDay": "5",
+    "deathCountry": "USA",
+    "deathState": "FL",
+    "deathCity": "Inverness",
+    "nameFirst": "Ted",
+    "nameLast": "Williams",
+    "nameGiven": "Theodore Samuel",
+    "weight": "205",
+    "height": "75",
+    "bats": "L",
+    "throws": "R",
+    "debut": "1939-04-20",
+    "finalGame": "1960-09-28",
+    "retroID": "willt103",
+    "bbrefID": "willite01"
+  }
+]
+ *** DEBUG: Query =  select playerID,nameLast,throws from People WHERE nameLast='Williams'  AND nameFirst='Ted' 
+Result =  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:People
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'playerID': 'willite01', 'nameLast': 'Williams', 'throws': 'R'}
+ *** DEBUG: Query =  select playerID,nameLast from People WHERE nameLast='Williams'  AND nameFirst='Ted' 
+Result =  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:People
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'playerID': 'willite01', 'nameLast': 'Williams'}
+ *** DEBUG: Query =  SHOW KEYS FROM People WHERE Key_name = 'PRIMARY'
+ *** DEBUG: Query =  select playerID,nameLast,throws from People WHERE playerID='willite01' 
+
+
+Result =  {'playerID': 'willite01', 'nameLast': 'Williams', 'throws': 'R'}
+ *** DEBUG: Query =  SHOW KEYS FROM People WHERE Key_name = 'PRIMARY'
+
+
+Result =  [
+  "playerID"
+]
+ *** DEBUG: Query =  insert into People (playerID,nameLast,throws) values ( 'dff201','Ferguson','R') 
+
+
+Result =  null
+ *** DEBUG: Query =  select * from People WHERE playerID='dff201' 
+
+
+After insert, Q returns  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:People
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'playerID': 'dff201', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': None, 'nameLast': 'Ferguson', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': 'R', 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}
+
+ *** DEBUG: Query =  insert into People (playerID,nameLast,throws) values ( 'dff201','Ferguson','R') 
+Result =  null
+ *** DEBUG: Query =  select * from People WHERE playerID='dff201' 
+
+
+After insert, Q returns  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:People
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'playerID': 'dff201', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': None, 'nameLast': 'Ferguson', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': 'R', 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}
+ *** DEBUG: Query =  delete from People WHERE playerID='dff201' 
+
+
+After delete, Q returns  1
+ *** DEBUG: Query =  insert into People (playerID,nameLast,throws) values ( 'dff201','Ferguson','R') 
+
+
+Result =  null
+ *** DEBUG: Query =  select * from People WHERE 
+
+playerID='dff201' 
+After insert, Q returns  <class 'DerivedDataTable.DerivedDataTable'>: name = FBT:People
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'playerID': 'dff201', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': None, 'nameLast': 'Ferguson', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': 'R', 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}
+ *** DEBUG: Query =  delete from People WHERE playerID='dff201' 
+
+
+After delete, Q returns  1
+ *** DEBUG: Query =  insert into People (playerID,nameLast,throws) values ( 'dff201','Ferguson','R') 
+Result =  null
+ *** DEBUG: Query =  update People set nameFirst='Donald',bats='R' WHERE playerID='dff201' 
+
+
+After update, Q returns  1
+ *** DEBUG: Query =  delete from People WHERE playerID='dff201' 
+
+
+After delete, Q returns  1
+ *** DEBUG: Query =  insert into People (playerID,nameLast,throws) values ( 'dff201','Ferguson','R') 
+Result =  null
+ *** DEBUG: Query =  update People set nameFirst='Donald',bats='R' WHERE playerID='dff201' 
+
+
+After update, Q returns  1
+ *** DEBUG: Query =  delete from People WHERE playerID='dff201' 
+
+
+After delete, Q returns  1
